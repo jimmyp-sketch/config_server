@@ -3,6 +3,5 @@ spring:
     url: jdbc:postgresql://localhost:5432/test_db
     username: test_user
     password: test_pass
-  profiles:
-    active: test
+
 message: "This is the Testing Environment"

@@ -3,6 +3,5 @@ spring:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: Bhagya@1990
-  profiles:
-    active: dev
+
 message: "This is the Development Environment"
