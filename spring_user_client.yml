@@ -17,5 +17,5 @@ sonar:
   host: http://localhost:9000  # ✅ SonarQube URL
   login: admin
   password: admin
-  projectKey: spring-user-client
+  projectKey: spring_user_client
   projectName: Spring User Client
