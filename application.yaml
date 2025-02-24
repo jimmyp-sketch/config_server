@@ -9,3 +9,6 @@ spring:
     hibernate:
       ddl-auto: update  # (or create-drop, validate, none)
     show-sql: true
+
+app:
+  message: "Hello from Config Server!"
