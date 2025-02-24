@@ -1,13 +1,11 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/mydatabase
-    username: myuser
-    password: mypassword
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: Bhagya@1990
     driver-class-name: org.postgresql.Driver
   jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
-      ddl-auto: update
+      ddl-auto: update  # (or create-drop, validate, none)
     show-sql: true
-
-app:
-  message: "Hello from GitHub Config!"
