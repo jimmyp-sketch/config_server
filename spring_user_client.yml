@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring_user_client
+  datasource:
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  profiles:
+    active: default
