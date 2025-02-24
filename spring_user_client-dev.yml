@@ -3,5 +3,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: Bhagya@1990
+    driver-class-name: org.postgresql.Driver
+
 
 message: "This is the Development Environment"

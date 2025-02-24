@@ -2,16 +2,13 @@ spring:
   application:
     name: spring_user_client
 
-  datasource:
-    driver-class-name: org.postgresql.Driver
-
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
 
   profiles:
-    active: default  # ✅ Set active profile
+    active: dev  # ✅ Set active profile
 
 sonar:
   host: http://localhost:9000  # ✅ SonarQube URL
