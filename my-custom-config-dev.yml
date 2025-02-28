@@ -19,6 +19,8 @@ spring:
 
 logging:
   level:
+    root: INFO
+    com.external.demo: DEBUG
     org.springframework.jdbc.core: DEBUG  # Logs SQL execution details
     org.hibernate.SQL: DEBUG  # Logs Hibernate-generated SQL queries
     org.hibernate.type.descriptor.sql: TRACE  # Logs SQL parameters
@@ -31,13 +33,3 @@ config:
   external:
     path: "E:/config_external/"  
     file: "my-custom-config"
-logging:
-  level:
-    root: INFO
-    com.external.demo: DEBUG
-   
-    
-
-    
-    
-    
