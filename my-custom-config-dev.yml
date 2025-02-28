@@ -31,3 +31,13 @@ config:
   external:
     path: "E:/config_external/"  
     file: "my-custom-config"
+logging:
+  level:
+    root: INFO
+    com.external.demo: DEBUG
+   
+    
+
+    
+    
+    
