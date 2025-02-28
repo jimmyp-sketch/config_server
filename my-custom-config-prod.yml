@@ -1,0 +1,6 @@
+server:
+  port: 8082
+
+app:
+  name: "Externalized Config - Prod"
+  version: "1.0-PROD"

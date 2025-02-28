@@ -1,0 +1,33 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: Bhagya@1990
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true  # Pretty prints SQL queries
+        use_sql_comments: true  # Adds comments to queries for better debugging
+
+logging:
+  level:
+    org.springframework.jdbc.core: DEBUG  # Logs SQL execution details
+    org.hibernate.SQL: DEBUG  # Logs Hibernate-generated SQL queries
+    org.hibernate.type.descriptor.sql: TRACE  # Logs SQL parameters
+
+app:
+  name: "Externalized Config - Dev 3423456"
+  version: "1.0-DEV abc"
+
+config:
+  external:
+    path: "E:/config_external/"  
+    file: "my-custom-config"
