@@ -14,7 +14,7 @@ spring:
     show-sql: false
     properties:
       hibernate:
-        format_sql: false  # Pretty prints SQL queries
+        format_sql: true  # Pretty prints SQL queries
         use_sql_comments: true  # Adds comments to queries for better debugging
 
 #logging:
@@ -26,7 +26,7 @@ spring:
  #   org.hibernate.type.descriptor.sql: TRACE  # Logs SQL parameters
 
 app:
-  name: "Externalized Config - Dev 3423456"
+  name: "Externalized Config - Dev test"
   version: "1.0-DEV abc"
 
 config:
