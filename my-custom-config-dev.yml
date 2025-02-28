@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
-    password: Raj@1990
+    password: Bhagya@1990
     driver-class-name: org.postgresql.Driver
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
@@ -15,7 +15,7 @@ spring:
     properties:
       hibernate:
         format_sql: true  # Pretty prints SQL queries
-        use_sql_comments: true  # Adds comments to queries for better debugging
+        use_sql_comments: false
 
 #logging:
 #  level:
