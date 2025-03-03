@@ -5,12 +5,13 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
-    password: Bhagya1@1990
+    password: Bhagya@1990
     hikari:
       minimum-idle: 0
       maximum-pool-size: 5
       connection-test-query: SELECT 1
       validation-timeout: 1000
+      auto-commit: false
     driver-class-name: org.postgresql.Driver
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
