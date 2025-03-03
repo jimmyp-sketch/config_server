@@ -4,8 +4,8 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/postgres
-    username: postgrestest
-    password: test@1990
+    username: postgres
+    password: Bhagya@1990
     hikari:
       minimum-idle: 0
       maximum-pool-size: 5
