@@ -37,5 +37,5 @@ app:
 
 config:
   external:
-    path: "E:/config_external/data"  
+    path: "E:/config_external/demo"  
     file: "my-custom-config"
