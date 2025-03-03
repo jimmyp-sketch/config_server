@@ -9,7 +9,7 @@ spring:
     hikari:
       minimum-idle: 0
       maximum-pool-size: 5
-      connection-test-query: SELECT 1
+      connection-test-query: "SELECT 1"
       validation-timeout: 1000
       auto-commit: false
     driver-class-name: org.postgresql.Driver
